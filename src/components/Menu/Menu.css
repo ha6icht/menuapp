@@ -1,0 +1,28 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.menu-heading{
+    font-size: 1.2rem;
+}
+.menu-for{
+    font-size: 1rem;
+}
+.meal-menu{
+    padding: 0;
+    font-weight: bold;
+}
+.day-date{
+    font-size: 1rem;
+}
+.menu-form{
+    display: flex;
+}
+input{
+    font-size: 1.2rem;
+}
+.back-to-menu{
+    text-decoration: none;
+    color: black;
+}
