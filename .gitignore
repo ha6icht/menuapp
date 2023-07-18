@@ -25,4 +25,7 @@ yarn-error.log*
 package-lock.json
 package.json
 
+_package.json
+packageV0_1_0.json
+
 /components/Shop
