@@ -101,7 +101,7 @@ class Home extends React.Component{
     // Is leap year?
     //const year = new Date(Date.UTC(2021,0,1));
     const leapYear = /*year.getUTCFullYear();*/yearStart.getUTCFullYear();
-    //console.log(leapYear)
+    //console.log('leapYear: ',leapYear)
     if((leapYear%4) === 0){
       //console.log('leapYear%4:'+leapYear);
       if((leapYear%100) === 0){
@@ -115,7 +115,8 @@ class Home extends React.Component{
         }
       }
       else{
-        checkYear = true;
+        if(leapYear === 2032) checkYear = false;
+        else checkYear = true;
       }
     }
     else{
@@ -124,7 +125,7 @@ class Home extends React.Component{
     //console.log('checkYear: '+checkYear);
     //Week 53
     const leapDay = /*year.getUTCDay();*/yearStart.getUTCDay();
-    //console.log('leapDay: '+leapDay);
+    console.log('leapDay: '+leapDay);
     if((leapDay === 3 && checkYear) || (leapDay === 4 && !checkYear)) {
       checkWeek = true;
     }
