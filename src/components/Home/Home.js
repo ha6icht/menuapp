@@ -319,12 +319,13 @@ class Home extends React.Component{
     const cW = this.getWeekNumber(new Date());
     localStorage.setItem('cW', cW[1]);
     localStorage.setItem('year', cW[0]);
+    console.log('cW[2]: ',cW[2]);
     if(cW[2]){
-      localStorage.setItem('checkWeek', 53);
-      week = 53;
-    } else {
       localStorage.setItem('checkWeek', 52);
       week = 52;
+    } else {
+      localStorage.setItem('checkWeek', 53);
+      week = 53;
     }
     this.setState({
       dateCW: cW[1],
