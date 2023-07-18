@@ -1,8 +1,8 @@
 {
   "name": "menuapp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "homepage": "https://wolf7803.github.io/menuapp",
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -13,7 +13,16 @@
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "^4.0.3",
+	"react-beautiful-dnd": "^13.1.1",
+	"@babel/runtime": "^7.9.2",
+	"css-box-model": "^1.2.0",
+	"memoize-one": "^5.1.1",
+	"raf-schd": "^4.0.2",
+	"react-redux": "^7.2.0",
+	"redux": "^4.0.4",
+	"use-memo-one": "^1.1.1"
+
   },
   "scripts": {
     "start": "react-scripts start",
