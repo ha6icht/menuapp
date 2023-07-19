@@ -1,6 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+/.vscode
 /node_modules
 /.pnp
 .pnp.js
@@ -27,5 +28,6 @@ package.json
 
 _package.json
 packageV0_1_0.json
+packageV0_2_0.json
 
 src/components/Shop
