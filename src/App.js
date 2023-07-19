@@ -14,8 +14,8 @@ class App extends React.Component{
         <div className="App">
             <Navbar />
             <Routes>
-                <Route path="/menuapp" Component={Home} exact />
-                <Route path="/menuapp/menu" Component={Menu} />
+                <Route path="/" Component={Home} exact />
+                <Route path="/menu" Component={Menu} />
                 <Route Component={Error} />
             </Routes>
         </div>
