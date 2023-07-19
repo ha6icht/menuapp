@@ -2,7 +2,7 @@
   "name": "menuapp",
   "version": "0.3.0",
   "private": true,
-  "homepage": "http://localhost:4000",
+  "homepage": "http://localhost:8080/www/local.grizzley.menu/menuapp/build",
   "dependencies": {
     "gh-pages": "^5.0.0",
     "mobx": "^6.10.0",
