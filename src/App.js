@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 
 import Home from "./components/Home/Home";
@@ -13,11 +13,11 @@ class App extends React.Component{
       return (
         <div className="App">
             <Navbar />
-            <Switch>
-                <Route path="/" component={Home} exact />
-                <Route path="/menu" component={Menu} />
-                <Route component={Error} />
-            </Switch>
+            <Routes>
+                <Route path="/" Component={Home} exact />
+                <Route path="/menu" Component={Menu} />
+                <Route Component={Error} />
+            </Routes>
         </div>
     )
     }
