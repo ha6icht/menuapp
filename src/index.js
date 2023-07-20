@@ -8,15 +8,22 @@ console.log(process.env.PUBLIC_URL);
 console.log(process.env.REACT_APP_PUBLIC_URL_LOCAL);
 console.log(process.env.REACT_APP_PUBLIC_URL_GITHUB);
 
-// <HashRouter> only for Github!!!
-// For diffrent Web Server use <BrowserRouter> with config file e.g. .htaccess for Apache or .config for nginx
 
+// <HashRouter> only for Github!!!
 ReactDOM.render(
   <HashRouter>
     <App />
   </HashRouter>,
   document.getElementById('root')
 );
+
+// For diffrent Web Server use <BrowserRouter> with config file e.g. .htaccess for Apache or .config for nginx
+/*ReactDOM.render(
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <App />
+  </BrowserRouter>,
+  document.getElementById('root')
+);*/
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
