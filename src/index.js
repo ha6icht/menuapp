@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, HashRouter, MemoryRouter } from "react-router-dom"
+import { BrowserRouter, HashRouter} from "react-router-dom"
 import './index.css';
 import App from './App';
 //import * as serviceWorker from './serviceWorker';
 console.log(process.env.PUBLIC_URL);
 console.log(process.env.REACT_APP_PUBLIC_URL_LOCAL);
 console.log(process.env.REACT_APP_PUBLIC_URL_GITHUB);
+
+// <HashRouter> only for Github!!!
+// For diffrent Web Server use BrowserRouter with config file e.g. .htaccess for Apache
 
 ReactDOM.render(
   <HashRouter>
