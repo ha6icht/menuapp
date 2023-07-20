@@ -1,3 +1,4 @@
+#For Apache Webserver
 Options -MultiViews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
