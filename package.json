@@ -1,6 +1,7 @@
 {
     "name": "menuapp",
     "version": "0.4.0",
+    "description": "Add browser refresh for path /menu",
     "private": true,
     "homepage": "http://localhost:8080/www/local.grizzley.menu/menuapp/build",
     "dependencies": {
