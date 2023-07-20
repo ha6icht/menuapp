@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/www/local.grizzley.menu/menuapp/build/static/css/main.dd64cffd.css",
-    "main.js": "/www/local.grizzley.menu/menuapp/build/static/js/main.4db430a6.js",
-    "index.html": "/www/local.grizzley.menu/menuapp/build/index.html",
-    "main.dd64cffd.css.map": "/www/local.grizzley.menu/menuapp/build/static/css/main.dd64cffd.css.map",
-    "main.4db430a6.js.map": "/www/local.grizzley.menu/menuapp/build/static/js/main.4db430a6.js.map"
+    "main.css": "/menuapp/static/css/main.dd64cffd.css",
+    "main.js": "/menuapp/static/js/main.980129d5.js",
+    "index.html": "/menuapp/index.html",
+    "main.dd64cffd.css.map": "/menuapp/static/css/main.dd64cffd.css.map",
+    "main.980129d5.js.map": "/menuapp/static/js/main.980129d5.js.map"
   },
   "entrypoints": [
     "static/css/main.dd64cffd.css",
-    "static/js/main.4db430a6.js"
+    "static/js/main.980129d5.js"
   ]
 }
