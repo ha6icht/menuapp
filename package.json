@@ -2,7 +2,7 @@
     "name": "menuapp",
     "version": "0.4.0",
     "description": "Add browser refresh for path /menu. .htaccess working for Apache Web Server. .config working for nginx Web Server. For Github use HashRouter instead of BrowserRouter in index.js",
-    "private": false,
+    "private": true,
     "homepage": "https://rok7803.github.io/menuapp",
     "dependencies": {
         "dotenv": "^16.3.1",
