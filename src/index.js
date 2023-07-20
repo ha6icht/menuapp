@@ -9,7 +9,7 @@ console.log(process.env.REACT_APP_PUBLIC_URL_LOCAL);
 console.log(process.env.REACT_APP_PUBLIC_URL_GITHUB);
 
 // <HashRouter> only for Github!!!
-// For diffrent Web Server use BrowserRouter with config file e.g. .htaccess for Apache
+// For diffrent Web Server use <BrowserRouter> with config file e.g. .htaccess for Apache or .config for nginx
 
 ReactDOM.render(
   <HashRouter>
