@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, MemoryRouter } from "react-router-dom"
+import { BrowserRouter, HashRouter, MemoryRouter } from "react-router-dom"
 import './index.css';
 import App from './App';
 //import * as serviceWorker from './serviceWorker';
 console.log(process.env.PUBLIC_URL);
-console.log(process.env.REACT_APP_PUBLIC_URL_DEV);
-console.log(process.env.REACT_APP_PUBLIC_URL);
+console.log(process.env.REACT_APP_PUBLIC_URL_LOCAL);
+console.log(process.env.REACT_APP_PUBLIC_URL_GITHUB);
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL_DEV}>
+  <HashRouter>
     <App />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
 
