@@ -1,7 +1,7 @@
 {
     "name": "menuapp",
     "version": "0.4.0",
-    "description": "Add browser refresh for path /menu",
+    "description": "Add browser refresh for path /menu. .htaccess working for Apache Web Server. .config working for nginx Web Server. For Github use HashRouter instead of BrowserRouter in index.js",
     "private": false,
     "homepage": "http://localhost:8080/www/local.grizzley.menu/menuapp/build",
     "dependencies": {
