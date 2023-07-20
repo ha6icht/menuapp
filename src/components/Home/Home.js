@@ -5,6 +5,7 @@ import Schedule from './Schedule/Schedule';
 import DateBar from './DateBar/DateBar';
 import menuStore from '../../stores/MenuStore'
 import './Home.css';
+import { Outlet } from "react-router-dom";
 
 /**
  * @typedef {*} String
