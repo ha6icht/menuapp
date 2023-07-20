@@ -10,16 +10,17 @@ import Navbar from "./components/Navbar/Navbar";
 class App extends React.Component{
     
     render(){
-      return (
-        <div className="App">
-            <Navbar />
-            <Routes>
-                <Route path="/" Component={Home} exact />
-                <Route path="/menu" Component={Menu} />
-                <Route Component={Error} />
-            </Routes>
-        </div>
-    )
+        
+        return (
+            <div className="App">
+                <Navbar />
+                <Routes>
+                    <Route path="/" Component={Home} exact />
+                    <Route path="/menu" Component={Menu} />
+                    <Route Component={Error} />
+                </Routes>
+            </div>
+        )
     }
 }
 
