@@ -4,9 +4,12 @@ import { BrowserRouter, MemoryRouter } from "react-router-dom"
 import './index.css';
 import App from './App';
 //import * as serviceWorker from './serviceWorker';
+console.log(process.env.PUBLIC_URL);
+console.log(process.env.REACT_APP_PUBLIC_URL_DEV);
+console.log(process.env.REACT_APP_PUBLIC_URL);
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL_DEV}>
     <App />
   </BrowserRouter>,
   document.getElementById('root')
